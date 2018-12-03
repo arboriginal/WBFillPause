@@ -1,0 +1,21 @@
+name: WBFillPause
+description: Suspend your Worlborder fill command when a player join.
+version: 0.1
+
+author: arboriginal
+website: https://github.com/arboriginal
+dev-url: https://github.com/arboriginal/WBFillPause
+
+depend: [ WorldBorder ]
+softdepend: [ ]
+
+api-version: 1.13
+database: false
+
+main: me.arboriginal.WBFillPause.Main
+
+permissions:
+  wbfp.bypass:
+    description: DO NOT pause the worldborder fill on join.
+    default: op
+
